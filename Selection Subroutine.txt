@@ -1,0 +1,26 @@
+# Selection Subroutine
+
+;Clean registers
+AND R0, R0, #0
+AND R7, R7, #0
+
+;Get ASCII Input and transform into binary
+PUTS Prompt
+GETC (numeric value)
+JSR Transform into binary
+
+;Selections
+;Caesars Encryption
+ADD R0, R0, b11111
+BR p +4
+JSR Caesars Encryption
+HALT
+
+;Caesars Decryption
+ADD R0, R0, b11111
+JSR Caesars Decryption
+HALT
+
+PROMPT .STRING Z "1. Caesar Encryption 2. Caesar Decryption"
+INT .FILL ;A subroutine for transforming numbers into binary
+.END

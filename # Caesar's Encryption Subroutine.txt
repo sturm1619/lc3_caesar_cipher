@@ -1,0 +1,8 @@
+# Caesar's Encryption Subroutine
+
+;Empty registers
+AND R1, R1, b00000
+AND R2, R2, b00000
+
+; Get input from memory
+L

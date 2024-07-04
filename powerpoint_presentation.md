@@ -1,0 +1,25 @@
+# PowerPoint Presentation
+
+- **Title**
+- **Short description**
+- **Purpose and utility**
+- Features
+  - **Multiple sessions through looping**
+  - **Selection**
+    - *Flowchart* (needs update)
+    - Press 1 for Encryption, 2 for decryption
+    - Error handeling
+  - **String input**
+    - *Flowchart* (needs update)
+    - Discard lowercase non-alfanumeric characters
+    - Support for extremely large string
+    - Error handeling
+  - **Key input**
+    - *Flowchart* (needs update)
+    - Support for 1 or 2 digit numeric strings
+      - For 1 digit numbers, input number and press Enter.
+      - For 2 digit numbers, input number. The program will automatically close the input window.
+    - Error handeling for non numeric characters
+  - **Encryption/Decryption**
+    - *Flowchart* (needs update)
+- **Sample run**
